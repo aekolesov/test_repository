@@ -19,6 +19,7 @@ def main():
     score = model.score(X_test, y_test)
     # comments
     print(f"Accuracy на тесте: {score:.2%}")
+    print("change")
 
 
 if __name__ == "__main__":
