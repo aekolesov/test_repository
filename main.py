@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 def main():
     X, y = load_iris(return_X_y=True)
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.3, random_state=42
+        X, y, test_size=0.2, random_state=42
     )
 
     model = RandomForestClassifier(max_depth=8, random_state=42)
