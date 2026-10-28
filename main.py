@@ -21,6 +21,8 @@ def main():
     print(f"Accuracy на тесте: {score:.2%}")
     print("change")
 
+    print("here local changes")
+
 
 if __name__ == "__main__":
     main()
